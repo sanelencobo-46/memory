@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: hwb(303 71% 5%);
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.cover {
+    margin-bottom: 50px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 8px 0;
+}
+
+.game-subtitle {
+    margin-top: -10px;
+    font-size: 14px;
+    opacity: 0.8px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #730791;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
